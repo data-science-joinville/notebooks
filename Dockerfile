@@ -16,6 +16,7 @@ RUN conda update --all && \
         seaborn \
         numpy \
         scipy \
+        scikit-learn \
         scikit-image
 
 RUN pip install widgetsnbextension && \
